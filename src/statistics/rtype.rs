@@ -2,6 +2,7 @@ use crate::super_enum;
 
 super_enum! {
     enum Rtype {
+        Type0 => (0, "TYPE0"),
         A => (1, "A"),
         Ns => (2, "NS"),
         Md => (3, "MD"),
@@ -64,6 +65,7 @@ super_enum! {
         Openpgpkey => (61, "OPENPGPKEY"),
         Csync => (62, "CSYNC"),
         Zonemd => (63, "ZONEMD"),
+        Type65 => (65, "TYPE65"),
         Spf => (99, "SPF"),
         Uinfo => (100, "UINFO"),
         Uid => (101, "UID"),
